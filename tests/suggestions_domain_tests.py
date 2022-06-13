@@ -15,5 +15,9 @@ class SuggestionsDomainTests(unittest.TestCase):
         domain.handle_timer_expired(898, 1)
 
 
+"""
+Running these tests will execute temporary print functions in specific methods
+demonstrating the process and logic flow of the Suggestions Services
+"""
 if __name__ == "__main__":
     unittest.main()

@@ -60,5 +60,9 @@ class AdaptersTests(unittest.TestCase):
         self.assertEqual(timer_adapter.set_email_timer(3600, 1, 898), None)
 
 
+"""
+Running these tests will execute temporary print functions in specific methods
+demonstrating the process and logic flow of the Suggestions Services
+"""
 if __name__ == "__main__":
     unittest.main()

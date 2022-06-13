@@ -7,6 +7,15 @@ entities = SuggestionsEntities()
 
 
 class SuggestionsEntitiesTests(unittest.TestCase):
+    """
+    Before running Suggestion Entity tests, you're expected to
+    toggle the comment between raise and return statements
+    in all the entity files
+
+    raise NotImplemented | as per hiring test requirements
+    return | as per testing requirements
+    """
+    
     def test_cast_company(self: "SuggestionsEntitiesTests"):
         """ Should return object of type Company model """
         company = Company(pk=898, name="microsoft", country="us", industry="technology")
@@ -18,5 +27,9 @@ class SuggestionsEntitiesTests(unittest.TestCase):
         self.assertEqual(entities.cast_suggestion(suggestion), suggestion)
 
 
+"""
+Running these tests will execute temporary print functions in specific methods
+demonstrating the process and logic flow of the Suggestions Services
+"""
 if __name__ == "__main__":
     unittest.main()

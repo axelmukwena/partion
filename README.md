@@ -37,6 +37,11 @@ alternative structure
 
 ### Running the program
 
+Before executing the program, you're expected to toggle the comment between raise and return statements in all the entity and adapter files
+
+`raise NotImplemented` | as per hiring test requirements <br>
+`return` | as per testing requirements
+
 #### NB: No external packages used, only Builtin functions were used. So no need to run the following instructions.
 
 - Developed using Python 3.9 on Unix based MacOS Catalina
