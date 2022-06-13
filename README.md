@@ -9,23 +9,22 @@
 current structure
 ```shell
 --- app
-     |___ adapters
-     |___ domain
-     |___ entities
-     |___ models
+     |--- adapters
+     |--- domain
+     |--- entities
+     |--- models
 --- tests
 ```
 
 alternative structure
 ```shell
 --- service1
-     |___ tests.py
-     |___ models.py
-     |___ logic.py
-     |___ adapters
+     |--- tests.py
+     |--- models.py
+     |--- logic.py
+     |--- adapters
 --- service2
-     |___ ...
---- tests
+     |--- ...
 ```
 
 ### Did not have time to...
