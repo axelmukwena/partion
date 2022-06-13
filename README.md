@@ -7,14 +7,17 @@
 - Future reviews include reorganization of the file structure suitable for scaling and matching the needs of the implementation, rather than conforming to the structure of traditional web apps / APIs
 
 current structure
+```shell
 --- app
      |___ adapters
      |___ domain
      |___ entities
      |___ models
 --- tests
+```
 
 alternative structure
+```shell
 --- service1
      |___ tests.py
      |___ models.py
@@ -23,6 +26,7 @@ alternative structure
 --- service2
      |___ ...
 --- tests
+```
 
 ### Did not have time to...
 
