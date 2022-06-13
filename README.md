@@ -1,6 +1,36 @@
 # Partion, Partnership - Suggestion
  Implementation for a Partnership Suggestion service for Reveal Companies as per [requirements](https://github.com/reveal-co/hiring/tree/master/backend)
 
+## Challenges encountered
+- At my current job, programmatic tests are not required thus my implementation is hacky and I will definitely need to practice and review more.
+- I'm also more experienced with Ruby on Rails's out-of-the-box's implementation which tends to limit the logic, code structure and organization of the application. Thus, I had to spend some time reading up on the different types of Implementation Architectures, including Hexagonal.
+- Future reviews include reorganization of the file structure suitable for scaling and matching the needs of the implementation, rather than conforming to the structure of traditional web apps / APIs
+
+current structure
+--- app
+     |___ adapters
+     |___ domain
+     |___ entities
+     |___ models
+--- tests
+
+alternative structure
+--- service1
+     |___ tests.py
+     |___ models.py
+     |___ logic.py
+     |___ adapters
+--- service2
+     |___ ...
+--- tests
+
+### Did not have time to...
+
+- I did not fully understand the usability of some elements though the requirements and process flow was very clear, which did not hinder the execution of the test. For instance:
+    1. In the requirements, no 6: the statement [_for the title, content and recipients of the email to be sent_] did not explicitly state the difference between recipients and emails. 
+    2. Each company has multiple recipients, where each recipient received the same Title and Content?
+    3. I also did not fully understand what _email_type_ evaluates to?
+
 ### Running the program
 
 #### NB: No external packages used, only Builtin functions were used. So no need to run the following instructions.
