@@ -48,7 +48,7 @@ Before executing the program, you're expected to toggle the comment between rais
 - It took me around 5-6 hours, including testing, comments and How-To
 - Helpful resources:
     1. https://douwevandermeij.medium.com/hexagonal-architecture-in-python-7468c2606b63
-    2. https://github.com/bjudson/topsy/tree/0a183e95d2c5b2eefcc4888a1f6ef5085e419691
+    2. https://github.com/bjudson/topsy
     3. https://medium.com/@vsavkin/hexagonal-architecture-for-rails-developers-8b1fee64a613
 
 To continue, clone the repository and navigate its directory
